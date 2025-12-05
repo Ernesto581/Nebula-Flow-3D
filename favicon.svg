@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3. org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="nebula" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#a855f7"/>
+      <stop offset="40%" style="stop-color:#6366f1"/>
+      <stop offset="70%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#nebula)"/>
+  <!-- Nebula swirl effect -->
+  <ellipse cx="32" cy="32" rx="20" ry="8" fill="#c084fc" opacity="0.4" transform="rotate(-30 32 32)"/>
+  <ellipse cx="32" cy="32" rx="18" ry="6" fill="#818cf8" opacity="0.5" transform="rotate(20 32 32)"/>
+  <ellipse cx="32" cy="32" rx="14" ry="5" fill="#60a5fa" opacity="0.4" transform="rotate(-10 32 32)"/>
+  <!-- Stars -->
+  <circle cx="20" cy="18" r="1. 5" fill="white"/>
+  <circle cx="45" cy="22" r="1" fill="white"/>
+  <circle cx="15" cy="40" r="1" fill="white"/>
+  <circle cx="48" cy="45" r="1. 5" fill="white"/>
+  <circle cx="38" cy="14" r="0.8" fill="white"/>
+  <circle cx="25" cy="48" r="0.8" fill="white"/>
+  <circle cx="50" cy="32" r="1" fill="white"/>
+  <circle cx="12" cy="28" r="0. 8" fill="white"/>
+  <!-- Center glow -->
+  <circle cx="32" cy="32" r="8" fill="url(#glow)"/>
+  <circle cx="32" cy="32" r="3" fill="white" opacity="0.9"/>
+</svg>
