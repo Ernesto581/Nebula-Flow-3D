@@ -1,0 +1,8 @@
+{
+  "name": "Nebula Flow 3D",
+  "description": "An interactive, real-time 3D particle system powered by React Three Fiber and Gemini. Create mesmerizing visual patterns using manual controls or AI-generated configurations based on mood descriptions.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
