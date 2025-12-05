@@ -149,7 +149,7 @@ Controla el universo con tus manos. La aplicación reconoce las siguientes postu
 
 <div align="center">
   <p>
-    © 2024 <strong>Ernesto Linares</strong>. All rights reserved / Todos los derechos reservados.
+    © 2025 <strong>Ernesto Linares</strong>. All rights reserved / Todos los derechos reservados.
   </p>
   <p style="font-size: 0.8rem; color: #8b949e;">
     Made with 💙 and particles.
